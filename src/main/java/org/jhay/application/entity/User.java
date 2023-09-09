@@ -5,8 +5,6 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.time.LocalDateTime;
-
 @NoArgsConstructor
 @Data
 @Builder
@@ -14,7 +12,7 @@ import java.time.LocalDateTime;
 public class User {
     private String slack_name;
     private String current_day;
-    private LocalDateTime utc_time;
+    private String utc_time;
     private String track;
     private String github_file_url;
     private String github_repo_url;
