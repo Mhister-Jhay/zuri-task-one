@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     private final UserService userService;
 
-    @GetMapping("/")
+    @GetMapping("/api")
     public User getUser(@RequestParam("slack_name") String slack_name,
                         @RequestParam("track") String track){
         return userService.getUser(slack_name, track);
