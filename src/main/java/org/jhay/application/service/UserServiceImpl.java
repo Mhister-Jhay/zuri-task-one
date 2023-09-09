@@ -15,7 +15,7 @@ public class UserServiceImpl implements UserService {
                 .current_day("Saturday")
                 .utc_time(LocalDateTime.now())
                 .track(track)
-                .github_file_url("")
+                .github_file_url("https://github.com/Mhister-Jhay/zuri-task-one/blob/main/target/HNG-0.0.1-SNAPSHOT.jar")
                 .github_repo_url("https://github.com/Mhister-Jhay/zuri-task-one")
                 .status_code(200)
                 .build();
